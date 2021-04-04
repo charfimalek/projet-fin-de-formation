@@ -1,0 +1,31 @@
+[
+    {
+        "name": "SanDisk Ultra 128 GB",
+        "price": "45.89",
+        "description": "bla bla bla",
+        "ratings": 4.5,
+        "image": {
+            "public_id": "products/tzsnfrli3szrdnb4jgge"
+        },
+        "category": "Electronics",
+        "seller": "Ebay",
+        "stock": 50,
+        "numOfReviews": 32,
+        "reviews": []
+    },
+    {
+        "name": "embrayage",
+        "price": "45.89",
+        "description": "bla bla bla",
+        "ratings": 4.5,
+        "image": [{
+            "public_id": "products/tzsnfrli3szrdnb4jgge"
+        }],
+        "category": "Home",
+        "seller": "Ebay",
+        "stock": 50,
+        "numOfReviews": 32,
+        "reviews": []
+    }
+
+]

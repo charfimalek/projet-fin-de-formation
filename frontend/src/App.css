@@ -1,0 +1,160 @@
+html,
+body {
+    font-family: 'Amazon Ember';
+    width: 100%;
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #232f3e;
+    padding: 1rem 1rem;
+}
+
+#search_btn {
+    background-color: #febd69;
+    margin-left: 490px;
+    margin-top: -67px;
+}
+
+.input-group {
+    width: 90%;
+    margin-right: 35%;
+}
+
+#search_field {
+    height: 2.4rem;
+    padding: 1rem;
+    margin-left: 280px;
+    margin-top: 40px;
+}
+
+#login_btn,
+#view_btn {
+    background-color: #febd69;
+    padding: 0.4rem 1.8rem;
+    font-family: Calibri;
+}
+
+#cart {
+    font-size: 1rem;
+    color: white;
+}
+
+#cart_count {
+    background-color: #febd69;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    color: black;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Home page */
+#products_heading {
+    margin-top: 1.8rem;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-title a {
+    color: #2e2e2e;
+}
+
+.card-title a:hover {
+    color: #fa9c23;
+    text-decoration: none;
+}
+
+.card-body {
+    padding-left: 0;
+}
+
+.card-text {
+    font-size: 1.4rem;
+}
+
+#view_btn {
+    background-color: #fa9c23;
+    color:white;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 150px;
+}
+
+.redColor {
+    color: red;
+}
+
+.greenColor {
+    color: green;
+}
+
+#product_image {
+    margin-top: 9rem;
+}
+
+/* Loader */
+.loader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    width: 80px;
+    height: 80px;
+    padding-left: 0;
+}
+.loader:after {
+    content: ' ';
+    display: block;
+    width: 54px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fa9c23;
+    border-color: #fa9c23 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+
+.stars {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+    list-style: none;
+    font-size: 3rem;
+    padding-left: 20px;
+    color: #e3e3e3;
+}
+
+.orange {
+    color: #fa9c23;
+}
+
+.yellew {
+    color: #fdcc0d;
+}
+
+.review_user {
+    font-size: 0.8rem;
+    color: query;
+}
